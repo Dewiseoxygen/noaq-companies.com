@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Noaq Companies and Auto Services.</title>
+    <style>
+        .grid-container{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: 0.4fr 0.5fr 3fr 1fr ;
+            background-color: #e0f6ff;
+            height: 100vh;
+            border: #12abaa 1px dashed;
+            gap: 10px;
+            background-image: image(car);
+            grid-template-areas: "head head head head head"
+            "sidebar main main main main"
+            "sidebar main main main main"
+            "sidebar footer footer footer footer"
+            ;
+        }
+        .grid-item-1{
+            grid-area: head;
+            
+            
+            background-color: aliceblue;
+
+        }
+        .grid-item-2{
+            grid-area: main;
+            
+            
+            background-color: antiquewhite;
+
+        }
+        .grid-item-3{
+            grid-area: sidebar;
+            
+            
+            background-color: aqua;
+        }
+        footer{
+            background-color: #ea12c3;
+            grid-area: footer;
+            
+            
+        }
+        button{
+            display: flex;
+            display: flexbox;
+            float: unset;
+            background-color: chartreuse;
+        }
+            
+        
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item-1">
+            <h1><center>Noaq Engineering And Companies Center</center></h1>
+        </div>
+        <div class="grid-item-2">
+            <h2>Welcome to Noaq Enineering Services</h2><hr>
+            <p>Have you been looking for a qualified and reliable engineering center to solve your Vehicle problems? Then stress yourself no more.Noaq Engineering services is the write place for you to visit
+            We are expect in Japan Motors and other Motors.</p>
+            <h3>Our Services include:</h3>
+            <ul>
+                <li>Auto and Manual Diagnosis</li>
+                <li>Vehicle fixing/ repairs</li>
+                <li>Vehicle Alignment</li>
+                <li>Body westing</li>
+                <li>Vehicle weddering</li>
+                <li>Vehicle Spraying</li>
+                Here, we give our customers spair cars if they are in need of some to use whilst we are working on their faulty cars. 
+            </ul>
+            <h3>We also;</h3>
+            <ul>
+                <li>Sells Cars</li>
+                <li>Exchange cars for Lands</li>
+                <li>Swap Cars</li>
+            </ul>
+        </div>
+        <div class="grid-item-3"><a href="footer">Contact</a><br>
+            <a href="about.html">about</a>
+        <a href="appointment.html"><button>Book Appointment</button></a></div>
+        <footer>Locate us at Kasoa New Market <em>Near Commecial Bank </em> On the Bawdwiase Road
+        <p> Contact Us on 0242318942</p>
+        <p>All Right Reserve copyrights</p>
+    </footer>
+    </div>
+</body>
+</html>
